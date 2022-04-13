@@ -284,8 +284,8 @@ exports.getOpenid = (req, res) => {
     let code = req.body.code;//获取小程序传来的code
     let encryptedData = req.body.encryptedData;//获取小程序传来的encryptedData
     let iv = req.body.iv;//获取小程序传来的iv
-    let appid = "wx9a0cf8632a101087";//自己小程序后台管理的appid，可登录小程序后台查看
-    let secret = "44b9bb6c4f8f64a667a147a9d828666e";//小程序后台管理的secret，可登录小程序后台查看
+    let appid = "112233444";//自己小程序后台管理的appid，可登录小程序后台查看
+    let secret = "ad11111111111111111";//小程序后台管理的secret，可登录小程序后台查看
     // let grant_type = "authorization_code";// 授权（必填）默认值直接换取token
     let grantType = "client_credential";//只是换取openid和sessionkey
     
@@ -423,8 +423,8 @@ exports.exportDetailExcel = (req, res) => {
                 host: 'smtp.qq.com',//网易163邮箱 smtp.163.com
                 port: 465,//网易邮箱端口 25
                 auth: {
-                    user: '2850045003@qq.com', //邮箱账号
-                    pass: 'rajxdloqiwhxdgdd'  //邮箱的授权码
+                    user: '11223344@qq.com', //邮箱账号
+                    pass: 'pass11111'  //邮箱的授权码
                 }
             };
 

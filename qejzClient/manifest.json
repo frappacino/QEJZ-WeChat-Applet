@@ -48,8 +48,8 @@
             "sdkConfigs" : {
                 "oauth" : {
                     "weixin" : {
-                        "appid" : "wx3447e395ddd592f6",
-                        "appsecret" : "f5a4cc128533e067ac7979a69fe1d615",
+                        "appid" : "wx11223344",
+                        "appsecret" : "1a2d1as1f1f111111111111",
                         "UniversalLinks" : ""
                     }
                 }
