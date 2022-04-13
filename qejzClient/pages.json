@@ -1,0 +1,161 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/me/me",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "企鹅记账",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/setBudget/setBudget",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/detail/detail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "企鹅记账",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
+		    "path" : "pages/detail/detailMore",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "账单详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "企鹅记账",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "pages/statistics/statistics",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "企鹅记账",
+		        "enablePullDownRefresh": true
+		    }
+		}
+        ,{
+            "path" : "pages/classify/classify",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/loan/loan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/listexport/listexport",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/customerservice/customerservice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/classify/classifyadd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/loan/loanadd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/loan/loanconcrete",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/loan/loanback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "企鹅记账",
+		"navigationBarBackgroundColor": "#ffa800",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"selectedColor":"#ffa800",
+		"color":"#2c2c2c",		//未被选中时颜色
+		"list":[
+			{
+				"text":"明细",
+				"pagePath":"pages/detail/detail",
+				"iconPath":"static/img/detail.png",
+				"selectedIconPath":"static/img/detail-a.png"
+			},
+			{
+				"text":"记账",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/img/keep.png",
+				"selectedIconPath":"static/img/keep-a.png"
+			},
+			{
+				"text":"统计",
+				"pagePath":"pages/statistics/statistics",
+				"iconPath":"static/img/statistics.png",
+				"selectedIconPath":"static/img/statistics-a.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/me/me",
+				"iconPath":"static/img/me.png",
+				"selectedIconPath":"static/img/me-a.png"
+			}
+		]
+	}
+}
